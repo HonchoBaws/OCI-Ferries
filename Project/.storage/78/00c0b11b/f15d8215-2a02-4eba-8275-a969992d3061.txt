@@ -1,0 +1,22 @@
+$ pnpm run build
+
+> shadcnui@ build /workspace/shadcn-ui
+> vite build
+
+vite v5.4.19 building for production...
+transforming...
+✓ 1807 modules transformed.
+[plugin:vite:reporter] [plugin vite:reporter] 
+(!) /workspace/shadcn-ui/src/lib/supabase.ts is dynamically imported by /workspace/shadcn-ui/src/components/ferry/BookingForm.tsx, /workspace/shadcn-ui/src/pages/BookingHistory.tsx, /workspace/shadcn-ui/src/pages/Dashboard.tsx but also statically imported by /workspace/shadcn-ui/src/contexts/AuthContext.tsx, /workspace/shadcn-ui/src/pages/AdminDashboard.tsx, dynamic import will not move module into another chunk.
+
+rendering chunks...
+computing gzip size...
+dist/index.html                   1.09 kB │ gzip:   0.51 kB
+dist/assets/index-CCaHgwzp.css   67.29 kB │ gzip:  11.62 kB
+dist/assets/index-IldVScIg.js   562.72 kB │ gzip: 167.92 kB
+
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rollupOptions.output.manualChunks to improve chunking: https://rollupjs.org/configuration-options/#output-manualchunks
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+✓ built in 7.62s

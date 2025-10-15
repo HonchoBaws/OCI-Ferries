@@ -1,0 +1,15 @@
+$ pnpm add @paystack/inline-js
+Progress: resolved 1, reused 0, downloaded 0, added 0
+Progress: resolved 1, reused 1, downloaded 0, added 0
+Progress: resolved 53, reused 52, downloaded 0, added 0
+Progress: resolved 249, reused 248, downloaded 1, added 0
+ WARN  1 deprecated subdependencies found: rollup-plugin-terser@7.0.2
+Progress: resolved 502, reused 427, downloaded 1, added 0
+Packages: +1
++
+Progress: resolved 502, reused 427, downloaded 1, added 1, done
+
+dependencies:
++ @paystack/inline-js 2.22.7
+
+Done in 5.4s
